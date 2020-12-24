@@ -1,24 +1,35 @@
 {
-  "name": "code-to-flow-chart1",
-  "version": "0.0.0",
-  "private": true,
+  "name": "codetoflowchart",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r # Here contain all code that works on background (Back-end).",
+  "main": "index.js",
   "scripts": {
-    "start": "node app"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "description": "CodeToFlowChart1",
-  "author": {
-    "name": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksiiSamutin/CodeToFlowChart.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksiiSamutin/CodeToFlowChart/issues"
+  },
+  "homepage": "https://github.com/OleksiiSamutin/CodeToFlowChart#readme",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "cookie-parser": "^1.4.0",
-    "debug": "^2.2.0",
-    "express": "^4.14.0",
-    "morgan": "^1.7.0",
-    "pug": "^2.0.0-beta6",
-    "serve-favicon": "^2.3.0"
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "net": "^1.0.2",
+    "node-static": "^0.7.11",
+    "node-zopfli": "^2.1.3",
+    "socket.io": "^2.3.0",
+    "ws": "^7.2.5",
+    "yargs": "^15.3.1"
   },
-  "engines": {
-    "node": "~6.10.x"
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
